@@ -18,8 +18,8 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/BrewingWeasel/Kalba/releases/download/kalba-v0.3.2/Kalba_0.3.2_amd64.deb
-        sha256: 23d0186a436f6e30b07024fc8f0e4359d8bc35e35c854941745a057688e7bc4a # This is required if you are using a remote source
+        url: https://github.com/BrewingWeasel/Kalba/releases/download/kalba-v0.3.5/Kalba_0.3.5_amd64.deb
+        sha256: 175e0f48c241080072e2bb496c13e8aaf7e95e337d3c6c5d219de862fe41ec39 # This is required if you are using a remote source
         only-arches: [x86_64] #This source is only used on x86_64 Computers
         dest-filename: Kalba.deb
         # This path points to the binary file which was created in the .deb bundle.
